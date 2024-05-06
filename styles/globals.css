@@ -1,4 +1,3 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,4 +8,8 @@
     margin: auto;
   }
 }
-
+@layer utilities {
+  .clipp {
+    clip-path: circle();
+  }
+}
