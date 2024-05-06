@@ -42,7 +42,7 @@ export default function Home() {
               className="w-20"
               width={70}
               height={70}
-              src="/images/r.png"
+              src="public\images\R.png"
               alt="github"
             />
             <a
