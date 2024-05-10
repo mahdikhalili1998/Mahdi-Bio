@@ -21,7 +21,7 @@ export default function Home() {
           </span>
         </h2>
         <ul className="font-none mt-6 flex flex-col items-center justify-center gap-8">
-          <li className="flex place-items-center gap-4 rounded-xl bg-blue-600 px-4 py-2 shadow-lg shadow-blue-400">
+          <li className="flex place-items-center gap-4 rounded-xl ani px-4 py-2 shadow-lg shadow-blue-400">
             <Image
               className="w-12 rounded-full"
               width={50}
@@ -37,7 +37,7 @@ export default function Home() {
               My Telegram
             </a>
           </li>
-          <li className="flex place-items-center gap-8 rounded-xl bg-black px-4 py-2 shadow-lg shadow-gray-600">
+          <li className="flex place-items-center gap-8 rounded-xl gitti px-4 py-2 shadow-lg shadow-gray-600">
             <Image
               className="clipp w-14 rounded-full"
               width={70}
@@ -53,7 +53,7 @@ export default function Home() {
               My GitHub
             </a>
           </li>
-          <li className="flex place-items-center gap-4 rounded-xl bg-pink-600 px-4 py-2 shadow-lg shadow-pink-800">
+          <li className="flex place-items-center gap-4 rounded-xl inista px-4 py-2 shadow-lg shadow-pink-800">
             <Image
               className="w-12 rounded-full"
               width={60}
@@ -69,7 +69,7 @@ export default function Home() {
               My Instagram
             </a>
           </li>
-          <li className="flex place-items-center gap-4 bg-green-600 rounded-xl px-4 py-2 shadow-lg shadow-green-600">
+          <li className="flex place-items-center gap-4 wha rounded-xl px-4 py-2 shadow-lg shadow-green-600">
             <Image
               className="w-12 rounded-full"
               width={65}

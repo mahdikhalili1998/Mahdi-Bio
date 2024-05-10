@@ -13,3 +13,99 @@
     clip-path: circle();
   }
 }
+
+.ani {
+  animation: telegram 9s infinite linear;
+}
+.gitti {
+  animation: git 9s infinite linear;
+}
+.inista {
+  animation: insta 9s infinite linear;
+}
+.wha {
+  animation: wha 9s infinite linear;
+}
+
+@keyframes telegram {
+  0% {
+    background: #1864ab;
+  }
+  20% {
+    background: #008dda;
+  }
+  40% {
+    background: #1098ad;
+  }
+  60% {
+    background: #10439f;
+  }
+  80% {
+    background: #4c6ef5;
+  }
+  100% {
+    background: #228be6;
+  }
+}
+
+@keyframes git {
+  0% {
+    background: black;
+  }
+  20% {
+    background: #1b1a55;
+  }
+  40% {
+    background: #10213c;
+  }
+  60% {
+    background: #00224d;
+  }
+  80% {
+    background: #030637;
+  }
+  100% {
+    background: black;
+  }
+}
+
+@keyframes insta {
+  0% {
+    background: #c2255c;
+  }
+  20% {
+    background: #ff407d;
+  }
+  40% {
+    background: #ff5bae;
+  }
+  60% {
+    background: #d63484;
+  }
+  80% {
+    background: #ed5ab3;
+  }
+  100% {
+    background: #e26ee5;
+  }
+}
+@keyframes wha {
+  0% {
+    background: #37b24d;
+  }
+  20% {
+    background: #8decb4;
+  }
+  40% {
+    background: #0a6847;
+  }
+  60% {
+    background: #007f73;
+  }
+  80% {
+    background: #37b5b6;
+  }
+  100% {
+    background: #37b24d;
+  }
+}
