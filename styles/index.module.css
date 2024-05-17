@@ -1,4 +1,4 @@
-.code {
+.showCode {
   background-image: linear-gradient(
       to right,
       rgba(0, 0, 0, 0.521),
@@ -6,4 +6,17 @@
     ),
     url(../public/images/code.webp);
   height: 15rem;
+  opacity: 1;
+  transition: all 0.8s;
+}
+.notShowCode {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.521),
+      rgba(0, 0, 0, 0.521)
+    ),
+    url(../public/images/code.webp);
+  height: 15rem;
+  opacity: 0;
+  transition: all 0.8s;
 }
